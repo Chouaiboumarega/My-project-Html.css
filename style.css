@@ -1,0 +1,23 @@
+img{
+     width: 100px;
+     height: 100px;
+}
+.header{
+     display: flex;
+     flex-direction: row;  
+     justify-content: space-between;
+
+}
+.lolo{
+    display: grid;
+    flex-direction: row-reverse;
+}
+.tata{
+    display: flex;
+    margin-right: 10%;
+}
+.vl{
+display: flex;
+align-items: center;
+    }
+
