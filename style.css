@@ -1,23 +1,81 @@
 img{
      width: 100px;
      height: 100px;
+
 }
+body{
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    background-image: url(Stade.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}   
 .header{
      display: flex;
      flex-direction: row;  
      justify-content: space-between;
-
+     background-color: bisque;
+     position: fixed;
+     top: 0;
+     width:100%;
 }
-.lolo{
-    display: grid;
-    flex-direction: row-reverse;
+.toto{
+    display: flex;
+    justify-content: flex-start;
+    
+    }
+
+ul li a {
+    text-decoration: none;
+    justify-content: space-around;
+}
+ul li{
+    padding: 10px;/*Marge interieur et margin les marges exterieurs*/
+    list-style-type: none;
+   
 }
 .tata{
     display: flex;
-    margin-right: 10%;
+    justify-content: center;
+    
+   
+}
+.coco{
+    text-align: center
 }
 .vl{
-display: flex;
-align-items: center;
-    }
+    display: flex;
+}
+p{
 
+background-color: aqua;
+}
+h1{
+    color: aliceblue;
+}
+.gradient{
+    width:  200px;
+    height: 200px;
+    background: linear-gradient(90deg, orange, red);
+    border: 4px solid black;
+    border-radius: 0% 100% 16% 84% / 76% 6% 94% 24%;
+    
+}
+.parallax{/*mettre toute la page en mode fixe pour que la page deroule sur l'image*/
+    background-image: url(Ocean.webp);
+    height: 100%;/*permet d'avoir l'image sur tout l'ecran*/
+    background-attachment: fixed;/*fixe l'image */
+    background-position:center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+main{
+    padding-top: 80px;
+}
+a:hover{/* Colorer le lien une fois la souris dessus*/
+    color: red;
+}
+a:visited{/* Colorer les liens deja cliqué*/
+    color: brown;
+}
